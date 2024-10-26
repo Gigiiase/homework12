@@ -1,0 +1,125 @@
+.conteiner {
+    width: min(100%, 1440px);
+    margin: auto;
+    background-image: url(../images/Rectangle\ 3\ \(2\).png);
+    height: 666px;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 64px 140px;
+}
+.section_class {
+    padding: 40px;
+    background-color: #1C1325CC;
+    border: 1px solid #B052B5C9;
+    border-radius: 20px;
+    display: flex;
+    column-gap: 66px;
+    
+    
+}
+
+.form_section_title {
+font-family: Poppins;
+font-size: 32px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 4px;
+color:  #FFFFFF;
+padding-inline: 137px;
+margin-bottom: 80px;
+}
+
+.form_section_title:hover {
+text-shadow: 2px 4px 4px  #F90CEFB5;
+}
+
+.form_input {
+    width: 230px;
+    height: 48px;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    background-color: #1C1325CC;
+    color:  #9E8D9EB5;
+    
+    
+    font-size: 16px;  
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+.margin_class{
+    margin-inline: 20px;
+}
+
+.form_label {
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+color: #FFFFFF;
+
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+display: block;
+margin-bottom: 8px;
+
+}
+
+.section_form_second_input{
+    width: 520px;
+    height: 112px;
+    border-radius: 8px;
+    border: 1px solid #B052B5;
+    background-color: #1C1325CC;
+    color:  #9E8D9EB5;
+
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    display: block;
+    margin-bottom: 40px;
+}
+.section_button {
+    width: 520px;
+    height: 64px;
+    border-radius: 16px ;
+    background: #F30AEA;
+    color:  #ffffff;
+    cursor: pointer;
+}
+span {
+    font-family: Poppins;
+font-size: 16px;
+font-weight: 700;
+line-height: 26px;
+}
+
+/* map_section */
+
+.button_sections {
+    padding-bottom: 66px;
+    display: flex;
+    justify-content: center;
+}
+.button_class {
+    background: #F30AEA;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    width: 48px;
+    height: 48px; 
+}
+.middle_class {
+    margin-inline: 72px;
+}
+.map_class {
+    width: 494px;
+    height: 338px;
+    border-radius: 10px;
+    
+}
