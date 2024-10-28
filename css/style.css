@@ -104,17 +104,22 @@ margin-bottom: 8px;
     color:  #ffffff;
     cursor: pointer;
 }
-span {
-    font-family: Poppins;
-font-size: 16px;
+span {  
+    font-family: Poppins;       
+font-size: 16px;    
 font-weight: 700;
 line-height: 26px;
 }
 
 /* map_section */
+ .map_section {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 72px;
+ }
 
 .button_sections {
-    padding-bottom: 66px;
     display: flex;
     justify-content: center;
     column-gap: 72px;
@@ -127,8 +132,7 @@ line-height: 26px;
     height: 48px; 
 }
 .map_class {
-    width: 494px;
+    width: 100%;
     height: 338px;
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
