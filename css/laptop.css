@@ -9,6 +9,7 @@
     .conteiner {
         height: 1124px;
         background-repeat: repeat;
+        padding: 32px 24px;
     }
     .section_class {
         display: flex;
