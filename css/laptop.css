@@ -1,0 +1,18 @@
+/* 1439-769 */
+
+@media (max-width: 1301px) {
+    .conteiner {
+        padding: 64px 24px;
+    }
+}
+@media (max-width: 801px) {
+    .conteiner {
+        height: 1124px;
+        background-repeat: repeat;
+    }
+    .section_class {
+        display: flex;
+        flex-wrap: wrap;
+        row-gap: 64px;
+    }
+}
