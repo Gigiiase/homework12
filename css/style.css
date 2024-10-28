@@ -60,6 +60,11 @@ text-shadow: 2px 4px 4px  #F90CEFB5;
     text-align: left;
     margin-bottom: 40px;
 }
+.text_area_section {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
 .form_label {
     font-family: Poppins;
 font-size: 16px;
@@ -77,22 +82,22 @@ margin-bottom: 8px;
 }
 
 .section_form_second_input{
-    width: 520px;
+    width: 100%;
     height: 112px;
     border-radius: 8px;
     border: 1px solid #B052B5;
     background-color: #1C1325CC;
     color:  #9E8D9EB5;
+    padding-left: 22px;
 
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    display: block;
     margin-bottom: 40px;
 }
 .section_button {
-    width: 520px;
+    width: 100%;
     height: 64px;
     border-radius: 16px ;
     background: #F30AEA;
@@ -120,9 +125,6 @@ line-height: 26px;
     border-radius: 8px;
     width: 48px;
     height: 48px; 
-}
-.middle_class {
-    
 }
 .map_class {
     width: 494px;
